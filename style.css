@@ -97,9 +97,11 @@ body {
 }
 
 .chat-image {
-	width:60px;
-	height:50px;
+	width:150px;
+	/*
+	height:60px;
 	border-radius:50%
+	*/
 }
 
 .chat .chat-header {
@@ -114,12 +116,12 @@ body {
 .chat .chat-header .chat-about {
     float: left;
     padding-left: 10px;
-    margin-top: 6px;
+    margin-top: 15px;
 }
 
 .chat .chat-header .chat-with {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 40px;
 }
 
 .chat .chat-header .chat-num-messages {
@@ -198,7 +200,7 @@ body {
     width: 100%;
     border: none;
     padding: 10px 20px;
-    font: 14px/22px "Lato", Arial, sans-serif;
+    font: 18px/22px "Lato", Arial, sans-serif;
     margin-bottom: 10px;
     border-radius: 5px;
     resize: none;
@@ -215,7 +217,7 @@ body {
     float: right;
     color: #94C2ED;
     font-size: 16px;
-    text-transform: uppercase;
+    text-transform: none;
     border: none;
     cursor: pointer;
     font-weight: bold;
