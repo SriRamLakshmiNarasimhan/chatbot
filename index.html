@@ -2,19 +2,18 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Sre's Chatbot</title>
+    <title>CricBot</title>
     <link rel="stylesheet" href="reset.css">
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet" />
+	<link rel="icon" type="image/gif/png" href="cricket-australia.jpg">
 </head>
 
 <body>
  <div>
- <h1 class="header">Chat with Sri Ram</h1>
- <p class="paragraph">Powered by Microsoft LUIS, this simple chatbot is trained to respond to queries related to myself and on the chatbot implementation as well.</p>
- <br/>
- <br/>
+ </br>
+ </br>
    <!--  <div id="box1"> -->
         <div id="box-wrapper">
             <div class="container clearfix">
@@ -22,9 +21,9 @@
                 <div class="chat">
 
                     <div class="chat-header clearfix">
-                        <img class="chat-image" src="thumbnail.png" alt="avatar"/> 
+                        <img class="chat-image" src="cricket-australia.png" alt="avatar"/> 
                         <div class="chat-about">
-                            <div class="chat-with">Chat with Sri Ram</div>
+                            <div class="chat-with">CricBot</div>
                         </div>
                     </div>
                     <!-- end chat-header -->
@@ -32,12 +31,12 @@
                         <ul>
                             <li class="clearfix">
                                 <div class="message-data align-left">
-                                    <span class="message-data-name"><i class="fa fa-circle online"></i>Sre</span>
+                                    <span class="message-data-name"><i class="fa fa-circle online"></i>CricBot</span>
                                 </div>
                             </li>
                             <li>
                                 <div class="message my-message">
-                                    Hi there! I'm Sre's chatbot trained powered by Microsoft LUIS. You can ask for my introduction or about this chatbot or even generic questions.
+                                    Howzat! I'm CricBot who can bounce you off with Cricket tit-bits
                                 </div>
                             </li>
                         </ul>
@@ -45,7 +44,7 @@
                     <!-- end chat-history -->
                     <div class="chat-message clearfix">
                         <textarea name="message-to-send" id="message-to-send" placeholder="Write a message..." rows="3"></textarea>
-                        <button class="send-btn">Send</button>
+                        <button class="send-btn">Bowl A Question</button>
                     </div>
                     <!-- end chat-message -->
                 </div>
@@ -69,7 +68,7 @@
 <script id="message-response-template" type="text/x-handlebars-template">
     <li>
         <div class="message-data">
-            <span class="message-data-name"><i class="fa fa-circle online"></i>Sre</span>
+            <span class="message-data-name"><i class="fa fa-circle online"></i>CricBot</span>
             <span class="message-data-time">{{time}}, Today</span>
         </div>
         <div class="message my-message">
