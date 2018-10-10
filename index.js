@@ -24,7 +24,6 @@
 				  //var decrypted = CryptoJS.AES.decrypt("U2FsdGVkX19Glask4Gxi9ajZUYLuGmcnz/1RW/mL3jV9V66raqG6U/s3ZiCHg/96GzMinXRj5G8cHXzF18blIw==", "Sre");
 				   var params = {
             // These are optional request parameters. They are set to their default values.
-			//"subscription-key":"5bd9c482dba94e4a8eb8a595befcaff9",
 			"subscription-key":CryptoJS.AES.decrypt("U2FsdGVkX19Glask4Gxi9ajZUYLuGmcnz/1RW/mL3jV9V66raqG6U/s3ZiCHg/96GzMinXRj5G8cHXzF18blIw==", "Sre").toString(CryptoJS.enc.Utf8),
 			"verbose": "true",
             "timezoneOffset": "0",
